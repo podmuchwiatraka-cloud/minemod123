@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "minemod",
+  "version": "${version}",
+  "name": "MineMod",
+  "description": "Kliencki mod MineMod z HUD-em, menu i kosmetykami.",
+  "authors": ["MineMod"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.minemod.MineModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
